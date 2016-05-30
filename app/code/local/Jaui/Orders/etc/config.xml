@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jaui_Orders>
+            <version>0.0.0.1</version>
+        </Jaui_Orders>
+    </modules>
+    <global>
+        <models>
+            <jaui_orders>
+                <class>Jaui_Orders_Model</class>
+                <resourceModel>jaui_orders_resource</resourceModel>
+            </jaui_orders>
+        </models>
+        <resources>
+            <jaui_orders_setup>
+                <setup>
+                    <module>Jaui_Orders</module>
+                </setup>
+            </jaui_orders_setup>
+        </resources>
+        <blocks>
+            <jaui_orders>
+                <class>Jaui_Orders_Block</class>
+            </jaui_orders>
+        </blocks>
+        <helpers>
+            <jaui_orders>
+                <class>Jaui_Orders_Helper</class>
+            </jaui_orders>
+        </helpers>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <jaui_orders before="Mage_Adminhtml">Jaui_Orders_Adminhtml</jaui_orders>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+</config>

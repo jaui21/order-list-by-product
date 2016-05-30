@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Jaui_Orders>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Jaui_Orders>
+    </modules>
+</config>

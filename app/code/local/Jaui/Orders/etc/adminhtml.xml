@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <jaui_orders translate="title" module="jaui_orders">
+                    <sort_order>10</sort_order>
+                    <title>Order Items</title>
+                    <action>adminhtml/order</action>
+                </jaui_orders>
+            </children>
+        </sales>
+    </menu>
+</config>
